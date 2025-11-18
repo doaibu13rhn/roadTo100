@@ -34,4 +34,8 @@ func main() {
 	//konversi tipe data string
 	var numberInString string = strconv.Itoa(int(aNumber))
 	fmt.Printf("Nilainya adalah %s\n", numberInString)
+
+	//operator aritmatika
+	total := 6
+	fmt.Println(total == 8)
 }
